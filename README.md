@@ -1,2 +1,1 @@
-page avia-app-kohl.vercel.app
-
+page https://avia-app-kohl.vercel.app/
