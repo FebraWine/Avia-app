@@ -31,7 +31,6 @@ export const getTikestAvia = createAsyncThunk('main/getTikestAvia', async (_, { 
 
   while (!stop) {
     try {
-      // eslint-disable-next-line no-await-in-loop
       const tickets = await dispatch(getTiketsAll(idSessia.payload.searchId))
       stop = tickets.payload.stop
       if (tickets?.error?.message === 'Не удалось получить билеты') {
