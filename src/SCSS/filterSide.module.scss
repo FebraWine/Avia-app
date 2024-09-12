@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../assets/fonts/OpenSans-Medium.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.side {
+  width: 217px;
+  height: 252px;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+  .title {
+    font-family: 'OpenSans';
+    font-size: 12px;
+    color: #4a4a4a;
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  .el {
+    padding-left: 15px;
+    height: 40px;
+    position: relative;
+  }
+
+  .el:hover {
+    cursor: pointer;
+  }
+
+  .el:active {
+    background-color: #f1fcff;
+  }
+
+  .text {
+    position: relative;
+    top: 8px;
+  }
+}

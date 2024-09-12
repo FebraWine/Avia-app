@@ -1,0 +1,10 @@
+.info {
+  width: 53%;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    width: 90%;
+  }
+}
