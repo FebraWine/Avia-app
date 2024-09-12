@@ -1,4 +1,4 @@
-/* eslint-disable indent */
+
 import { createSlice } from '@reduxjs/toolkit'
 
 import { getTiketsAll, getTikestAvia } from '../Api/servise'
@@ -49,7 +49,6 @@ const transferFilter = createSlice({
       }
 
       if (value) {
-        // eslint-disable-next-line no-restricted-syntax, guard-for-in
         for (const key in state.filter) {
           const { filter } = state
           if (filter[key] === true) {
